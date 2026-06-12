@@ -6,8 +6,21 @@
 
 - 官方剧本由 **预兆 Omen × 预兆房间 Room** 在剧本选择表 (Haunt Selection Table) 交叉索引：
   13 预兆 × 13 房间 → 编号 1–50（基础版）；Widow's Walk 拓展占 51–100。
-- **自定义剧本编号从 101 起**，并仿照官方"自定义剧本最低需求表"声明触发条件，例如：
-  `#101 — 需要 Omens: Bite；Rooms: 不限（为平衡禁用 Pentagram Chamber）`。
+- **自定义剧本编号从 101 起**，并仿照官方"自定义剧本最低需求表"在两册卷首声明触发条件
+  (Trigger Requirements)。三个维度各自可选、至少声明一项：
+
+  | 维度 | 写法示例 |
+  |---|---|
+  | Omens 预兆 | `Omens: Bite`（必须抽到咬痕触发）/ `Omens: any 任意` |
+  | Rooms 房间 | `Rooms: Kitchen or Furnace Room` / `Rooms: any omen room 任意预兆房间`（为平衡可写排除项：`not Pentagram Chamber`） |
+  | Characters 角色 | `Characters: requires Sara Nguyen in play` / 不声明 |
+
+- **触发绑定原则**：声明了什么，剧本内容就必须用到什么——
+  - 声明的预兆 = 故事起因或核心道具，须在机制中出场；
+  - 声明的房间用 **"the haunt-revealing room / 闹鬼揭示房间"** 指代并赋予机制意义
+    （怪物出生点、仪式点、逃生口……），使该维度写 "any omen room" 时对 13 间房均成立；
+  - 声明的角色须有定制内容（专属叙事/能力/弱点，或在奸徒选择规则中点名）；
+  - **未声明的维度不得产生硬依赖**——不要让一个 `Omens: any` 的剧本机制依赖 Girl 在场。
 
 ## 奸徒选择惯例 / Traitor Selection Conventions（官方原表用语）
 
@@ -22,10 +35,15 @@
 
 ## 两册逐节结构 / Section-by-section Structure
 
+每册产出 **英文、中文两个独立文件**（`en/`、`zh/` 目录），节次相同；下示节名以
+`英文节名 / 中文节名` 并列，实际文件中只用本语言的节名。
+
 ### Traitor's Tome 奸徒剧本（先写）
 
 ```
-Haunt <编号> — <英文标题> / <中文标题>
+Haunt <编号> — <标题>
+<卷首触发声明 Trigger Requirements：Omens / Rooms / Characters>
+<奸徒选择 Traitor selection line>
 
 <开场叙事 Flavor>            2-3 段，第二人称，描写奸徒黑化瞬间与动机。斜体排版。
 
@@ -55,7 +73,8 @@ If You Win ... / 若你获胜     1 段结局叙事。
 ### Secrets of Survival 英雄剧本（与奸徒册互补）
 
 ```
-Haunt <编号> — <英文标题> / <中文标题>
+Haunt <编号> — <标题>
+<卷首触发声明（与奸徒册一致）>
 
 <开场叙事 Flavor>            同一事件的英雄视角，2-3 段。
 
@@ -80,7 +99,10 @@ If You Win ... / 若你获胜     1 段结局叙事。
 - 第二人称、现在时；恐怖氛围但克制，PG-13。
 - 指令句使用规则术语原文（Knowledge roll of 5+ / put the X token / at the end of each turn）。
 - 两册对同一可见事实（token 位置、怪物外观、可见事件）描述必须一致；只对**意图与暗步骤**保持不对称。
-- 双语排版：每节内 **英文段在前，中文段紧随**；标题行双语并排。
+- **语言分离**：英文版与中文版各自独立成文件、单语成篇，玩家只需其中一份即可游玩。
+  英文为规则基准文本；中文版叙事可自由润色，但所有规则句的数值、目标值、房间名
+  （首次出现附英文原名，如"五芒星密室 (Pentagram Chamber)"）、判定条件必须与英文版
+  逐条对等。词汇统一用下方词汇表。
 
 ## 双语词汇表 / Glossary
 
