@@ -15,8 +15,8 @@ coming of morning.*
 
 Set aside a supply of triangular tokens — these are **Warmth** tokens. Count the
 number of heroes who began the haunt; call it **H**. The traitor sets the
-Turn/Damage Track to 1; it advances at the end of each of the traitor's turns,
-and at 8 midnight strikes.
+Turn/Damage Track to 1; it advances at the end of each monster turn, and at 8
+midnight strikes.
 
 If **Zoe Ingstrom** is in play, she is too pure of heart for Krampus to touch:
 she begins already carrying one Warmth token, and Krampus can never capture her
@@ -39,20 +39,24 @@ Each hero can only attempt one step each turn.
 1. **Gather warmth.** In any room with an Item symbol — or in the room where the
    haunt was revealed — attempt a Knowledge roll of 4+ to uncover a forgotten
    candle, a hidden gift, a kept promise. If you succeed, take one Warmth token.
+   A carried Warmth token is treated as an Item for giving, dropping, and
+   picking up.
 
 2. **Light a room.** While carrying a Warmth token, end your movement in an unlit
    room and attempt a Speed roll of 3+ to kindle it before the cold can smother
    the flame. If you succeed, place the Warmth token face up in that room: it is
-   now **Lit**. Each room can be Lit only once. (The traitor may try to snuff a
-   Lit room — see the traitor's powers — except in a game of 3 or fewer players,
-   where the lights cannot be snuffed.)
+   now **Lit**. Each room can hold only one Warmth token at a time. (The traitor
+   may try to snuff a Lit room — see the traitor's powers — except in a game of
+   3 or fewer players, where the lights cannot be snuffed. A snuffed room may be
+   kindled again.)
 
 3. **Bring the dawn.** When the number of Lit rooms equals **H** (the number of
    heroes who began the haunt), the whole house blazes with light, the morning
    breaks early through every window, Krampus is banished, and every captured
    hero spills free. The heroes win.
 
-**Freeing a captive.** A hero who is not captured and is in the same room as
+**Freeing a captive.** When a hero is captured, any Warmth token they carried
+drops in that room. A hero who is not captured and is in the same room as
 Krampus may, once on their turn, attempt a Might roll of 5+ to wrench a captured
 ally out of the Sack. On a success, that ally's figure returns to this room and
 resumes play on their next turn. (Defeating Krampus in combat only stuns it, but

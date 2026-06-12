@@ -16,20 +16,22 @@ very many this year, and there is so little time.*
 ## Right Now
 
 Your character is still in the game but has turned traitor. You control Krampus
-on the monster turn. Replace the Madman token with the large **Krampus** monster
-token in the room where the haunt was revealed, and put the **Sack** token
-(pentagonal) in that same room — Krampus carries the Sack. Use the Krampus
-traits printed at the end of this haunt.
+on the monster turn. Replace the Madman token with a circular monster token —
+this is **Krampus** — in the room where the haunt was revealed, and put the
+**Sack** token (pentagonal) in that same room — Krampus carries the Sack. Use
+the Krampus traits printed at the end of this haunt.
 
 You lose the Madman and any of its bonuses.
 
-Set the Turn/Damage Track to 1 with a plastic clip. At the end of each of your
-turns, advance the Track one number. When it reaches 8, midnight strikes.
+Set the Turn/Damage Track to 1 with a plastic clip. At the end of each monster
+turn, advance the Track one number (the Track advances even if your explorer has
+died, as long as the monster turn is still taken). When it reaches 8, midnight
+strikes.
 
 ## What You Know About the Heroes
 
-They are trying to light the cold house room by room; if dawn's warmth fills
-enough rooms, you are banished.
+They are lighting the cold house room by room; when the number of Lit rooms
+equals the number of heroes who began the haunt, you are banished.
 
 ## You Win When ...
 
@@ -39,15 +41,20 @@ else all heroes are captured or dead.
 
 ## The Krampus Must Do This ...
 
-On the monster turn, Krampus moves up to its Speed and, once, must attack a hero
-in its room if it can. Krampus carries the Sack and any captured heroes wherever
-it goes; the Sack and captives do not affect its traits.
+On the monster turn, Krampus moves up to a number of spaces equal to its Speed
+(do not roll for its movement) and, once, must attack a hero in its room if it
+can. Krampus carries the Sack and any captured heroes wherever it goes; the
+Sack and captives do not affect its traits.
 
 **Capture.** Krampus attacks with Might and deals physical damage. If Krampus
 wins a combat by 2 or more, instead of dealing that damage it may stuff the
 loser into the Sack: put that hero's figure on the Sack token. A captured hero
 takes no turns, cannot be targeted, and cannot be the custodian of anything
-until freed. If every hero is captured or dead at the same time, you win.
+until freed; their Items stay with them inside the Sack, but any Warmth tokens
+they carried drop in that room, and any companions remain there, waiting for a
+new custodian.
+Krampus can never capture **Zoe Ingstrom** (it may still deal her damage). If
+every hero is captured or dead at the same time, you win.
 
 ## Special Attack Rules
 
