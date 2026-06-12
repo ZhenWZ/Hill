@@ -60,17 +60,19 @@ move like an explorer, up to your Speed. You can't carry or use Items or Omens,
 can't be a companion's custodian, and can't make trait rolls except in combat.
 Once during your turn, if you are in a room with a hero, you must attack.
 
-You may enter the Coal Chute from the Basement Landing (the chimneys and flues
-are yours tonight): doing so, you may emerge in the Kitchen, the Charred Room,
-or any starting tile, if it is in the house. This counts as one space of
-movement.
+Once during your turn, while on the Basement Landing, you may slip into the
+flues (the chimneys are yours tonight) and emerge in the Kitchen, the Charred
+Room, or any starting tile, if it is in the house; the Coal Chute tile is not
+required. This counts as one space of movement. You ignore the crossing rolls
+of barrier rooms (Vault, Tower, Chasm, Catacombs), as monsters do.
 
 你进行正常回合（本剧本没有单独的怪物回合）。你像探索者一样移动，最多走等于速度的格
 数。你不能携带或使用道具与预兆，不能担任同伴的监护人，除战斗外不能进行属性检定。
 你的回合中，若与英雄同处一室，你必须攻击一次。
 
-你可以从地下室平台进入煤滑道（今夜烟囱与烟道都属于你）：由此你可以出现在厨房、焦黑
-房间或任意起始板块（若已在场上），计为 1 格移动。
+你的回合中限一次：当你位于地下室平台时，可以钻入烟道（今夜烟囱都属于你），从厨房、
+焦黑房间或任意起始板块钻出（若该板块已在场上）；不需要煤滑道板块在场。这计为 1 格
+移动。你像怪物一样无视障碍房间（保险库、塔楼、裂隙、地下墓穴）的通行检定。
 
 ### Special Attack Rules / 特殊攻击规则
 
@@ -80,16 +82,19 @@ of damage with one attack, the victim also takes 1 point of mental damage
 
 You are immune to Speed attacks (lead bullets pass through you). If you lose a
 combat against a hero who is **not** carrying a Silver Weapon token, you take no
-damage; instead you are stunned: flip your token, and skip your next turn. If
-you lose a combat against a hero carrying a Silver Weapon token, you take a
-wound: put one triangular token on this book. When there are 2 wound tokens
+damage; instead you are stunned: flip your token, and skip your next turn.
+Flip your token back at the end of the skipped turn. A skipped turn still ends:
+the Turn/Damage Track advances as normal. If you lose a combat against a hero
+carrying a Silver Weapon token, you take a wound: put one triangular token on
+this book. When there are 2 wound tokens
 (1 if there are 2 or fewer heroes), the Werewolf dies and the heroes win.
 
 你用力量攻击，造成物理伤害。单次攻击造成 2 点或更多伤害时，受害者额外受到 1 点精神
 伤害（黑暗中的恐惧）。
 
 你免疫速度攻击（铅弹只是穿身而过）。若你在战斗中败给**未**携带银武器标记的英雄，
-你不受伤害，改为眩晕：翻转你的标记，跳过你的下个回合。若败给携带银武器标记的英雄，
+你不受伤害，改为眩晕：翻转你的标记，跳过你的下个回合，并在该被跳过的回合结束时翻回
+正面。被跳过的回合同样有回合结束：回合/伤害轨照常推进。若败给携带银武器标记的英雄，
 你受到一处银创：在本册上放一个三角标记。当银创达到 2 个（英雄数不多于 2 时为 1 个），
 狼人死亡，英雄获胜。
 
@@ -191,7 +196,8 @@ From the roof, faintly, you hear bells — sweet, and this time, right.*
 
 ## Part 3 — Design Notes 设计说明（节选）
 
-- **互斥与收束**：轨道到 8 且狼人存活 → 奸徒胜；狼人死亡 → 英雄立即胜；全英雄死亡 → 奸徒立即胜。三者覆盖所有终局，最迟第 8 个奸徒回合分出胜负。
-- **任务链估算**：2 步检定（4+，成功率约 62%）+ 2 次加骰战斗（6v6，约五成），4 英雄 × 8 轮 ≈ 充分余量；3 人局降为 1 处银创补偿。
-- **信息不对称**：英雄册不写狼人的烟道机动与恐惧附伤；奸徒册不写英雄寻银的具体房间与目标值。两册对时钟、银创数、免疫描述一致。
-- **校验记录**：Hero ✅ PASS / Traitor ✅ PASS / Win-condition ✅ PASS（第 1 轮通过）。
+- **互斥与收束**：轨道到 8 且狼人存活 → 奸徒胜；狼人死亡 → 英雄立即胜；全英雄死亡 → 奸徒立即胜。三者覆盖所有终局；轨道自 1 起、每奸徒回合末强制推进（含被眩晕跳过的回合），最迟第 7 个奸徒回合结束时分出胜负。
+- **任务链估算**：2 步检定（4+，成功率约 62%）+ 2 次加骰战斗（8 骰 v 6 骰，约 65–70% 胜率），4 英雄 × 7 轮 ≈ 充分余量；3 人局降为 1 处银创补偿。
+- **信息不对称**：英雄册不写狼人的烟道机动与恐惧附伤；奸徒册不写英雄寻银的具体房间与目标值。两册对时钟、银创数、免疫、眩晕描述一致。
+- **校验记录**：Hero ✅ PASS / Traitor ✅ PASS / Win-condition ✅ PASS（第 1 轮通过，全部 NOTE 已修复）。
+- **实测关注项**：3 人局（2 英雄）奸徒胜率估计处于区间上沿（约 55–62%）；若实测偏奸徒，可将烟道机动在 3 人局降为每局一次。
